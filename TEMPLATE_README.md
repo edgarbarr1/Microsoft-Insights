@@ -41,19 +41,30 @@ I tried to look at other factors that could contribute to a higher grossing film
 However, I did learn that most movies stayed between the 103 minute and the 165 minute mark and that the average runtime was 136 minutes. These are important numbers that the production company can keep in mind to provide a standard runtime movie.
 
 ### Visual 4
-![graph4](./project_images/corr_rating_gross.png)
+![graph4](./project_images/corr_runtime_gross.png)
 
 Finally, I also looked into the the historical data on movie prodcution companies as well as movie studios and the amount of movies produced within the 10 year period -from 2010 to present day. I looked into the movie studios that generated the most gross and looked into the top production companies that generated the most gross per movie produced.
 
-As per Visual 5, 
+As per Visual 5, the top 3 production companies were Disney/Pixar, MGM, and Paramount. This is significant because their average gross Per Movie is along the highest and it shows the prodcution companies that Microsoft can consider partnering with to poduce the movie that they desire instead of cerating their own studio from scratch. Additionally in the [Notebook](./Microsoft-Insights.ipynb) it is shown that the production companies produced at most 4 movies within the 10 year period and they still had a high average gross.  
 
 ### Visual 5
-![graph5](./project_images/gross_movie_studios.png)
- 
+![graph5](./project_images/average_gross_production_company.png)
+
 
 ## Conclusions
 
-Provide your conclusions about the work you've done, including any limitations or next steps.
+The analysis of the Results leads to 3 recommendations for Microsoft:
+- **Choose a good director that will produce quality content and have an average standard runtime
+- **Consider choosing some of the top production companies that have shown they can produce movies that are high grossing
+- **Choose a high grossing genre that has been shown to be high grossing.
+
+## Next Steps
+
+To get a more complete picture of the Box Office industry, further analysis of the following could help provide a more personalized strategy:
+
+- Analyze the most popular ratings ('G','PG','PG-13','R') and which rating in average brings in the most gross
+- Analyze the most effective budget that should be given to different movie genres
+- Analyze effective marketing strategies that help a movie be succesful and high grossing in the box office
 
 ***
 Questions to consider:
@@ -64,9 +75,8 @@ Questions to consider:
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
-
-For any additional questions, please contact **name & email, name & email**
+Please review our full analysis in [our Jupyter Notebook](./Microsoft-Insights.ipynb) or [my presentation](./DS_Project_Presentation.pdf).
+For any additional questions, please contact [me](mailto:edgarraul98@icloud.com).
 
 ## Repository Structure
 
@@ -74,8 +84,8 @@ Describe the structure of your repository and its contents, for example:
 
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── Microsoft-Insights.ipynb            <- Narrative documentation of analysis in Jupyter notebook
+├── DS_Project_Presentation             <- PDF version of project presentation
 ├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+└── project_images                      <- Both sourced externally and generated from code
 ```
