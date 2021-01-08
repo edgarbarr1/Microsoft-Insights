@@ -1,14 +1,14 @@
-# Title
+# Microsoft Insights
 
-**Authors**: Student1, Student2
+**Authors**: Edgar Barron
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+This project analyzes the requirements, factors and strategies a business such as Microsoft must consider when trying to establish their presence in the Box Office industry. When analysing the data the movie industry has acquired throughout the years, it was found that multiple factors come into play to make a high grossing film including its genre, movie director, and choosing a production company.
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
+When entering the movie industry, Microsoft can enter with the right foot in if they choose the right movie director, genre of movie, and if they so desire partner with a production company to produce succesful movies. Doing so will allow Microsoft to keep producing movies and become a strong competitor in the movie industry.
 
 ***
 Questions to consider:
@@ -19,7 +19,7 @@ Questions to consider:
 
 ## Data
 
-Describe the data being used for this project.
+There are various reliable sources that detail everyhting we would need to know about the movie industry. Sites such as [IMDB](https://www.imdb.com/), [Box Office Mojo](https://www.boxofficemojo.com/), [Rotten Tomatoes](https://www.rottentomatoes.com/), [TMDB](https://www.themoviedb.org/), and [The-Numbers](https://www.the-numbers.com/). The data within the files from the website listed contained diverse information such as the date the movie was released, its associated cast, the genre and characteristics of the film, as well as the gross of the film just to name of few.
 
 ***
 Questions to consider:
@@ -31,7 +31,8 @@ Questions to consider:
 
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
+For this project the main sources of data used were from [Rotten Tomatoes](./data/zippedData/rotten_tomatoes_movies.csv.gz) and [Box Office Mojo](./data/zippedData/bom.movie_gross.csv.gz). Since the main problem of the project was to figure out succesful strategies that Microsoft can use to enter the Movie Industry succesfully, I concentrated my findings in the what was the highest grossing of a particular factors. Furthermore, since the movie industry has grown exponetially just this past decade, I concentrated my data in movies released in the year 2010 to present day.
+
 
 ***
 Questions to consider:
